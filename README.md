@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/3f0a787c-24f9-41ed-b955-d167fc9d253a)
 
-This is a simple robot simulator based on potential fields, with a user-friendly interface.<br>
+This is a simple javascript robot simulator based on potential fields, with a user-friendly interface.<br>
 It's very easy to use, and provides a straight view on what the potential fields are, and how they revolutioned robotics.<br>
 When you will open the simulator you will see an empty world with a grid.<br>
 
