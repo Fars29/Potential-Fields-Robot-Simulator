@@ -43,7 +43,7 @@ In the right panel you can see a section dedicated to the editing tools, to use 
 	You can edit the weight (strength) of the repulsive vector with the **Repulsive Force** parameter under the Robot Parameters section.<br>
   **Be careful to adjust the **sensor range** parameter located under the Robot Parameters section accordingly to the available space the robot has to pass.**<br>
   
-- ### Start point
+- ### Start Point
   
 	‎‎![image](https://github.com/user-attachments/assets/fbf0c00d-e6f5-41a5-9ee0-46bf6a949bd1)
 
