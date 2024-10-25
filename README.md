@@ -3,8 +3,8 @@
 ![image](https://github.com/user-attachments/assets/3f0a787c-24f9-41ed-b955-d167fc9d253a)
 
 This is a simple javascript robot simulator based on potential fields, with a user-friendly interface.<br>
-It's very easy to use, and provides a straight view on what the potential fields are, and how they revolutioned robotics.<br>
-When you will open the simulator you will see an empty world with a grid.<br>
+It's very easy to use, it provides a straight view on what the potential fields are and how they revolutioned robotics.<br>
+When you open the simulator you will see an empty world with a grid.<br>
 
 ## Editing Tools
 
@@ -24,7 +24,7 @@ In the right panel you can see a section dedicated to the editing tools, to use 
 	![image](https://github.com/user-attachments/assets/6bd74cd3-5593-4bff-bf93-ac6df4f47dfa)
 
 	The walls are line shaped objects that repel the robot by generating a repulsive vector that is directly proportional to the distance from the robot.<br>
-	You can edit the weight (strength) of the repulsive vector with the **Repulsive Force** parameter under the Robot Prameters section.<br>
+	You can edit the weight (strength) of the repulsive vector with the **Repulsive Force** parameter under the Robot Parameters section.<br>
   **Be careful to adjust the **sensor range** parameter located under the Robot Parameters section accordingly to the available space the robot has to pass.**<br>
 
 - ### Homebase
@@ -33,14 +33,14 @@ In the right panel you can see a section dedicated to the editing tools, to use 
 
 	The homebases are points that attract the robot by generating an attractive vector, like the light bulb for the W. Grey Walter.'s [Machine Speculatrix](https://home.csulb.edu/~wmartinz/content/w-grey-walter-and-his-turtle-robots.html), a rudimental turtle robot built in 1948.<br>
 	They are automatically numerated, and the robot is attracted only from 1 at time.<br>
-	You can edit the weight (strength) of the attractive vector with the **Attractive Force** parameter under the Robot Prameters section.<br>
+	You can edit the weight (strength) of the attractive vector with the **Attractive Force** parameter under the Robot Parameters section.<br>
 
 - ### Obstacles
   
 	‎‎![image](https://github.com/user-attachments/assets/fcaf2fdc-27b7-4e62-8e60-989d2c95472a)
 
 	‎‎The obstacles are round shaped objects that repel the robot by generating a repulsive vector that is directly proportional to the distance from the robot.<br>
-	You can edit the weight (strength) of the repulsive vector with the **Repulsive Force** parameter under the Robot Prameters section.<br>
+	You can edit the weight (strength) of the repulsive vector with the **Repulsive Force** parameter under the Robot Parameters section.<br>
   **Be careful to adjust the **sensor range** parameter located under the Robot Parameters section accordingly to the available space the robot has to pass.**<br>
   
 - ### Start point
