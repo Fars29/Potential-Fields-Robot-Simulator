@@ -1,0 +1,102 @@
+{
+  "objects": [
+    {
+      "type": "START",
+      "x": 96,
+      "y": 118.125,
+      "radius": 10
+    },
+    {
+      "type": "WALL",
+      "start": {
+        "x": 344,
+        "y": 126.125
+      },
+      "end": {
+        "x": 397,
+        "y": 82.125
+      }
+    {
+      "type": "WALL",
+      "start": {
+        "x": 344,
+        "y": 122.125
+      },
+      "end": {
+        "x": 402,
+        "y": 154.125
+      }
+    },
+    {
+      "type": "WALL",
+      "start": {
+        "x": 393,
+        "y": 83.125
+      },
+      "end": {
+        "x": 474,
+        "y": 90.125
+      }
+    },
+    {
+      "type": "WALL",
+      "start": {
+        "x": 472,
+        "y": 92.125
+      },
+      "end": {
+        "x": 397,
+        "y": 154.125
+      }
+    },
+    {
+      "type": "OBSTACLE",
+      "x": 611,
+      "y": 259.125,
+      "radius": 15
+    },
+    {
+      "type": "OBSTACLE",
+      "x": 392,
+      "y": 310.125,
+      "radius": 15
+    },
+    {
+      "type": "OBSTACLE",
+      "x": 224,
+      "y": 219.125,
+      "radius": 15
+    },
+    {
+      "type": "HOMEBASE",
+      "x": 731,
+      "y": 130.125,
+      "radius": 20,
+      "number": 1
+    },
+    {
+      "type": "HOMEBASE",
+      "x": 550,
+      "y": 343.125,
+      "radius": 20,
+      "number": 2
+    },
+    {
+      "type": "HOMEBASE",
+      "x": 47,
+      "y": 180.125,
+      "radius": 20,
+      "number": 3
+    }
+  ],
+  "config": {
+    "homeBaseCounter": 3,
+    "robotSpeed": 1.5,
+    "repulsiveForce": 150,
+    "attractiveForce": 120,
+    "noiseGain": 2,
+    "sensorRange": 40,
+    "boundaryForce": 100,
+    "enableBoundary": false
+  }
+}
