@@ -638,12 +638,15 @@ class World {
 
             // Reset the world state
             this.reset();
-            
             return true;
+
         } catch (error) {
+
             console.error("Error loading world:", error);
             return false;
-        }
+
+        } 
+
     }
 
 }
@@ -755,20 +758,12 @@ document.getElementById('saveWorldBtn').addEventListener('click', () => {
 });
 
 document.getElementById('loadWorldBtn').addEventListener('click', () => {
+    document.getElementById('worldFileInput').value = '';
     document.getElementById('worldFileInput').click();
 });
 
 document.getElementById('worldFileInput').addEventListener('change', (event) => {
     const file = event.target.files[0];
-    
-    // Check if we're trying to load the same file
-    if (lastLoadedFile && lastLoadedFile.name === file.name && 
-        lastLoadedFile.size === file.size && 
-        lastLoadedFile.lastModified === file.lastModified) {
-        // Reset the input to allow loading the same file again
-        event.target.value = '';
-        return;
-    }
     
     if (file) {
         const reader = new FileReader();
@@ -779,14 +774,14 @@ document.getElementById('worldFileInput').addEventListener('change', (event) => 
             } else {
                 alert('Error loading world file. Please check the file format.');
             }
-            // Reset the input to allow loading the same file again
-            event.target.value = '';
         };
         reader.onerror = () => {
             alert('Error reading file');
             event.target.value = '';
         };
         reader.readAsText(file);
+
+        
     }
 });
 
@@ -963,7 +958,7 @@ async function loadExampleWorld() {
 
     } catch (error) {
         console.error('Error loading example world:', error);
-        alert('Error loading example world file. Please use a server (even a local one) and check that the "exampleworld.json" file is in the same folder of this javascript file, or the function that loads the example world will not work due to browser secure measures for the local files. If you want to remove this alert please remove or comment line 966 in "rrsim.js".\n\nThe example file will not be loaded but you will be able to use the simulator normally.');
+        alert('Error loading example world file. Please use a server (even a local one) and check that the "exampleworld.json" file is in the same folder of this javascript file, or the function that loads the example world will not work due to browser secure measures for the local files. If you want to remove this alert please remove or comment line 961 in "rrsim.js".\n\nThe example file will not be loaded but you will be able to use the simulator normally.');s
     }
 }
 
